@@ -12,7 +12,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("Chat client window");
-        primaryStage.setScene(new Scene(root, 300, 275));
+        primaryStage.setScene(new Scene(root, 900, 450));
         primaryStage.show();
     }
 
@@ -20,9 +20,4 @@ public class Main extends Application {
     public static void main(String[] args) {
         launch(args);
     }
-
-    ПРОШУ ПРОВЕРИТЬ ЭТО ДЗ ВМЕСТЕ С ДОМАШНИМ ЗАДАНИЕМ LESSON 5.
-    В ДЗ 5 урока пропишу чтобы проверили 4 урок.
-            Спасибо.
-
 }
